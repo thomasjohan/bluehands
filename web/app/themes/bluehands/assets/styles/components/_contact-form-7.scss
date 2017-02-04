@@ -1,0 +1,34 @@
+/*
+This component makes contact form 7 look good with foundation
+*/
+.wpcf7-form {
+	input[type='submit'] {
+		@extend .button;
+	}
+	
+	input {
+		border-radius: 0;
+	}
+
+	.wpcf7-not-valid {
+		border-color: red;
+	}
+
+	.wpcf7-not-valid-tip {
+		margin-top: -10px;
+		margin-bottom: $padding;
+	}
+
+	.wpcf7-response-output {
+		margin-top: $padding;
+
+		@include callout($warning-color);
+		&.wpcf7-mail-sent-ok {
+			@include callout($success-color);
+		}
+
+		&.wpcf7-validation-errors {
+			@include callout($alert-color);
+		}		
+	}
+}

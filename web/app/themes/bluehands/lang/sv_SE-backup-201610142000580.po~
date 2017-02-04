@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webnerds Wordpress Boilerplate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-14 19:54+0000\n"
+"PO-Revision-Date: 2016-10-14 19:59+0000\n"
+"Last-Translator: kristoffer <kristoffer@webnerds.se>\n"
+"Language-Team: Swedish\n"
+"Language: sv-SE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: templates/footer.php:12
+msgid "Contact Us"
+msgstr "Kontakta oss"
+
+#: templates/footer.php:23 lib/acf/options.php:231
+msgid "Address"
+msgstr "Adress"
+
+#: lib/acf/flex-content.php:333
+msgid "image"
+msgstr "bild"
+
+#: lib/acf/flex-content.php:525 lib/acf/flex-content.php:565
+msgid "Citat"
+msgstr "Citat"
+
+#: lib/acf/flex-content.php:544
+msgid "Författare"
+msgstr "Författare"
+
+#: lib/acf/flex-content.php:583 lib/acf/flex-content.php:677
+msgid "Bild"
+msgstr ""
+
+#: lib/acf/options.php:577
+msgid "Facebook"
+msgstr "Facebook"
+
+#: lib/acf/options.php:593
+msgid "Instagram"
+msgstr "Instagram"
+
+#: lib/acf/options.php:609
+msgid "Youtube"
+msgstr "Youtube"
+
+#: lib/acf/options.php:672
+msgid "Facebook Pixel"
+msgstr "Facebook Pixel"
+
+#: lib/acf/options.php:693
+msgid "Body Start JS"
+msgstr ""
+"\n"
+"Body Start JS"
+
+#: lib/acf/options.php:714
+msgid "Body End JS"
+msgstr "Body End JS"
+
+#: lib/acf/page-banner.php:58
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: lib/acf/page-banner.php:81
+msgid "Divider image"
+msgstr "Överlappande bild"
+
+#: lib/acf/page-banner.php:113
+msgid "Transparent header"
+msgstr "Genomskinlig header"
+
+#: lib/acf/page-banner.php:137
+msgid "Banner content"
+msgstr ""
+
+#. Name of the theme
+msgid "Webnerds Wordpress Boilerplate"
+msgstr ""
+
+#. URI of the theme
+msgid "https://wp-boilerplate.webnerds.se"
+msgstr ""
+
+#. Author of the theme
+msgid "Webnerds"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://webnerds.se"
+msgstr ""
+
+#: lib/shortcodes.php:8 lib/acf/options.php:340 lib/acf/options.php:650
+msgid "Site info"
+msgstr ""
+"Webbplatsinformation\n"
+
+#: lib/shortcodes.php:17 lib/acf/options.php:450
+msgid "Link"
+msgstr "Länk"
+
+#: templates/footer.php:16 lib/acf/flex-content.php:652 lib/acf/options.php:213
+msgid "Email"
+msgstr "E-post"
+
+#: templates/footer.php:18 lib/acf/flex-content.php:659 lib/acf/options.php:192
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/footer.php:25
+msgid "The Rest"
+msgstr "Resten"
+
+#: lib/acf/flex-content.php:8 lib/acf/flex-content.php:28
+msgid "Bg color"
+msgstr "Bakgrundsfärg"
+
+#: lib/acf/flex-content.php:40 lib/acf/page-banner.php:26
+msgid "Background image"
+msgstr "Bakgrundsbild"
+
+#: lib/acf/flex-content.php:66
+msgid "Style"
+msgstr "Stil"
+
+#: lib/acf/flex-content.php:69
+msgid "Sets the style for the section."
+msgstr "Bestämmer stil för sektionen."
+
+#: lib/acf/flex-content.php:97
+msgid "Size"
+msgstr "Storlek"
+
+#: lib/acf/flex-content.php:134
+msgid "One column"
+msgstr "En kolumn"
+
+#: lib/acf/flex-content.php:141 lib/acf/flex-content.php:304
+msgid "content"
+msgstr "Innehåll"
+
+#: lib/acf/flex-content.php:165
+msgid "Two columns"
+msgstr "Två kolumner"
+
+#: lib/acf/flex-content.php:171
+msgid "Content left"
+msgstr "Innehåll vänster"
+
+#: lib/acf/flex-content.php:189
+msgid "Content right"
+msgstr "Innehåll höger"
+
+#: lib/acf/flex-content.php:213
+msgid "Image & text"
+msgstr "Bild och text"
+
+#: lib/acf/flex-content.php:219
+msgid "Image position"
+msgstr "Bildposition"
+
+#: lib/acf/flex-content.php:249
+msgid "Image size"
+msgstr "Bildstorlek"
+
+#: lib/acf/flex-content.php:280
+msgid "Image"
+msgstr "Bild"
+
+#: lib/acf/flex-content.php:328
+msgid "Image background"
+msgstr "Bildbakgrund"
+
+#: lib/acf/flex-content.php:357
+msgid "Background size"
+msgstr "Bakgrundsstorlek"
+
+#: lib/acf/flex-content.php:386
+msgid "Min height"
+msgstr "Min höjd"
+
+#: lib/acf/flex-content.php:415 lib/acf/flex-content.php:438
+msgid "Questions and Answers"
+msgstr "Frågor och Svar"
+
+#: lib/acf/flex-content.php:421 lib/acf/flex-content.php:508 
+#: lib/acf/flex-content.php:619
+msgid "Intro"
+msgstr "Introduktion"
+
+#: lib/acf/flex-content.php:453
+msgid "Add question"
+msgstr "Lägg till fråga"
+
+#: lib/acf/flex-content.php:457
+msgid "Question"
+msgstr "Fråga"
+
+#: lib/acf/flex-content.php:478
+msgid "Answer"
+msgstr "Svar"
+
+#: lib/acf/flex-content.php:502
+msgid "Reviews"
+msgstr "Recensioner"
+
+#: lib/acf/flex-content.php:613 lib/acf/flex-content.php:629
+msgid "Co-workers"
+msgstr "Medarbetare"
+
+#: lib/acf/flex-content.php:634
+msgid "Add coworker"
+msgstr "Lägg till medarbetare"
+
+#: lib/acf/flex-content.php:638
+msgid "Name"
+msgstr "Namn"
+
+#: lib/acf/flex-content.php:645 lib/acf/options.php:67 lib/acf/options.php:421
+msgid "Title"
+msgstr "Titel"
+
+#: lib/acf/flex-content.php:667
+msgid "Description"
+msgstr "Beskrivning"
+
+#: lib/acf/flex-content.php:698
+msgid "Flex content"
+msgstr "Flexibelt innehåll"
+
+#: lib/acf/flex-content.php:709
+msgid "Add section"
+msgstr "Lägg till sektion"
+
+#: lib/acf/options.php:7 lib/acf/options.php:8
+msgid "Theme Settings"
+msgstr "Temainställningar"
+
+#: lib/acf/options.php:48
+msgid "Expanded menu"
+msgstr "Expanderad meny"
+
+#: lib/acf/options.php:86
+msgid "Menu"
+msgstr "Meny"
+
+#: lib/acf/options.php:105
+msgid "Show expanded menu for"
+msgstr "Visa expanderad meny för"
+
+#: lib/acf/options.php:128
+msgid "Quick Menu"
+msgstr "Snabbmeny"
+
+#: lib/acf/options.php:171
+msgid "Company name"
+msgstr "Företagsnamn"
+
+#: lib/acf/options.php:252
+msgid "City"
+msgstr "Stad"
+
+#: lib/acf/options.php:273
+msgid "Zipcode"
+msgstr "Postnummner"
+
+#: lib/acf/options.php:319
+msgid "Contact info"
+msgstr "Kontaktinformation"
+
+#: lib/acf/options.php:362
+msgid "Footer extra"
+msgstr "Footer extrainnehåll"
+
+#: lib/acf/options.php:405
+msgid "Show CTA"
+msgstr "Visa CTA"
+
+#: lib/acf/options.php:504
+msgid "Dark logo"
+msgstr "Mörk logo"
+
+#: lib/acf/options.php:528
+msgid "Light logo"
+msgstr "Ljus logo"
+
+#: lib/acf/options.php:675
+msgid "Paste your Facebook Pixel code here"
+msgstr "Placera din Facebook Pixel här"
+
+#: lib/acf/options.php:696
+msgid "Code added here is inserted right after the opening body tag. "
+msgstr "Kod som läggs in här infogas precis efter den öppnande body-taggen."
+
+#: lib/acf/options.php:696 lib/acf/options.php:717
+msgid "Include script tags."
+msgstr "Inkludera script-taggar."
+
+#: lib/acf/options.php:717
+msgid "Code added here is inserted right before the closing body tag."
+msgstr "Kod som läggs in här infogas precis innan den stängande body-taggen."
+
+#: lib/acf/page-banner.php:10
+msgid "show banner"
+msgstr "Visa banner"

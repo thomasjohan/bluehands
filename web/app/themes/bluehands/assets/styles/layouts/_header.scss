@@ -1,0 +1,275 @@
+@mixin menu-styling-dark-bg() {
+	background-color: transparent;
+
+	.logo {
+		display: none;
+	}
+
+	.logo-light {
+		display: block;
+	}
+
+	a {
+		color: rgba($white, .95);
+
+		&:hover{
+			color: $white;
+			text-decoration: none;
+		}
+	}
+
+	.action-nav, .web-menu {
+		.button {
+			background-color: transparent;
+			border: 1px solid $white;
+			line-height: 1;
+
+			&:hover {
+				background-color: $white;
+				color: #76889f;
+			}
+		}
+		.mobile-nav-toggle span, .mobile-nav-toggle:hover span {
+			// background-color: rgba($white, 0.75);
+			background-color: $white;
+			// opacity: .75;
+		}		
+	}
+	.menu-item-has-children .sub-menu a {
+		color: $dark-gray;
+		&:hover {
+			color: rgba($dark-gray, .75);
+		}
+	}
+	
+	.current-page-parent, .current_page_item {
+		&:not(.menu-item-type-custom) {
+			a {
+				border-bottom: 2px solid $white;
+				padding-bottom: 2px;
+			}
+		}
+	}
+}
+
+.site-header {
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+
+	height: $site-header-height;
+	z-index:1000;
+
+	background: $white;
+
+	.static-menu {
+		position: relative;
+		.menu-wrap {
+			ul {
+				list-style: none;
+				margin: 0;
+				li {
+					color: $text-light;
+					display: inline;
+				}
+			}
+		} 
+	}
+
+	.action-nav, .web-menu { 
+		float: right;
+		ul {
+				list-style: none;
+				float: right;
+				margin: 0;
+		}
+		li {
+			display: inline-block;
+			padding: 0 10px;
+			line-height: $site-header-height;
+		}
+		a {
+			color: $dark-gray;
+			line-height: $site-header-height;
+			font-size: 14px;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 0;		
+			&:hover {
+				color: rgba($dark-gray, .75);
+			}
+
+		}
+		.button {
+			color: $white;
+			line-height: 1;
+			margin-top: -2px;
+			padding: 13px 20px;
+			&:hover {
+				color: $white;
+			}
+		}
+		.current-page-parent, .current-menu-item, .current-page-ancestor {
+			&:not(.menu-item-type-custom) {
+				> a {
+					border-bottom: 2px solid $dark-gray;
+					padding-bottom: 2px;
+				}
+			}
+			
+		}
+
+		.mobile-nav-toggle{
+			span {
+				background-color: lighten($dark-gray, 10);
+			}
+
+			&:hover {
+				span {
+					background-color: $dark-gray;
+				}
+			}	
+		}	
+	}
+
+	.logo {
+		display: block;
+	}
+
+	.logo-light {
+		display: none;
+	}
+	
+	.menu-logo {
+		padding: 20px 0;
+		height: $site-header-height;
+
+		.logo, .logo-light {
+			display: block;
+			text-indent: -9999px;
+			width: 100%;
+			height: 100%;
+			background-image: url(../images/logo.png);
+			background-size: contain;
+			background-position: right center;
+			background-repeat: no-repeat;
+		}
+
+		.logo {
+			.mobile-nav-open & {
+				display: none;
+			}
+		}
+
+		.logo-light {
+			display: none;
+			.mobile-nav-open & {
+				display: block;
+			}
+		}
+	}
+
+	.menu-item-has-children {
+		> a:after{
+			content: "";
+			padding-left: 10px;
+			font-family: FontAwesome;
+		}
+
+		position: relative;
+
+		.sub-menu {
+			z-index: 100;
+			background-color: $white;
+			display: none;
+			position: absolute;
+			margin-top: -10px;
+			left: 0px;
+			width: 100%;
+			padding: 20px 20px;
+			box-shadow: 0 0 20px rgba(145, 145, 145, 0.5);
+
+			&:before {
+				$size: 7px;
+				content: '';
+				width: 0; 
+				height: 0; 
+				border-left: $size solid transparent;
+				border-right: $size solid transparent;
+				border-bottom: $size solid $white;
+				position: absolute;
+				top: -$size;
+				left: 45%;
+			}
+
+			ul {
+				list-style: none;
+			}
+			li {
+				display: block;
+				padding: 0;
+				line-height: 40px;
+
+				a {
+					line-height: 40px;
+				}
+			}
+		}
+	}	
+
+	@include admin-bar-fixed();
+
+	&:not(.sticky).dark-bg {
+		@include menu-styling-dark-bg;
+	}
+
+	body &.sticky {
+		position: fixed;
+		animation-name: roll-down;
+    	animation-duration: 0.4s;
+    	margin-top: 0px;
+	}
+	
+	@keyframes roll-down {
+		0% {
+    		margin-top: -$site-header-height;
+		}
+		100% {
+
+		}
+	}
+	
+	body:not(.mobile-nav-open) &.sticky {
+		background-color: rgba($white, .98);
+	}
+
+	@include breakpoint(large) {
+		.web-menu {
+			.mobile-nav-open & .menu-item {
+				display: none;
+			}
+		}
+	}
+}
+
+.mobile-nav-open {
+  overflow: hidden;
+
+  &.admin-bar {
+    .site-header {
+      margin-top: 32px !important;
+
+      @media screen and ( max-width: 782px ) {
+        margin-top: 46px !important;
+      }
+    }
+  }
+
+  .site-header {
+    @include menu-styling-dark-bg();
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+  }
+}

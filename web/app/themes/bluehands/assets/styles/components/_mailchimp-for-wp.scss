@@ -1,0 +1,10 @@
+.mc4wp-form {
+	input[type="submit"] {
+		@extend .button;
+		display: block;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+	}
+}

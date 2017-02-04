@@ -1,0 +1,243 @@
+.flexible-content {
+	//default styles
+
+	.color-1 {
+		background: $primary-color;
+		@include dark-bg;
+		p {
+			color: lighten($primary-color,40);
+		}
+	} 
+
+	.color-2 {
+		background: $secondary-color;
+		@include dark-bg;
+		p {
+			color: lighten($secondary-color,40);
+		}
+	}
+
+	.dark-1 {
+		background: $darker-gray;
+		@include dark-bg;
+	}
+
+	.dark-2 {
+		background: $dark-gray;
+		@include dark-bg;
+	}
+
+	.light-1 {
+		background: $white;
+	}
+
+	.light-2 {
+		background: $light-gray;
+	}
+
+	.one-column {
+		padding: $padding*4 0;
+		position: relative;	
+	}
+
+	.two-columns {
+		padding: $padding*4 0;	
+		position: relative;	
+
+		.last{
+			padding-top: $padding*2;
+		}
+	}
+
+	.image-background {
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.image-section {
+		padding: $padding*4 0;
+		position: relative;
+
+		@include breakpoint(medium) {
+			.section-content {
+				display: table;
+
+				.media {
+					width: 50%;
+
+					&.large {
+						width: 70%;
+					}
+
+					&.normal {
+						width: 50%;
+					}
+
+					&.small {
+						width: 40%;
+					}
+				}
+			}
+
+			.image,.media, .text {
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+
+			&.image-left .media {
+				padding-right: $padding*5;
+				// img {
+				// 	@include clip-path(polygon(6% 7%, 89% 7%, 99% 100%, 0 94%));
+				// }
+			}
+
+			&.image-right .media {
+				padding-left: $padding*5;
+				// img {
+				// 	@include clip-path(polygon(13% 0, 89% 7%, 100% 87%, 0 100%));
+				// }
+			}
+		}
+
+		
+
+		@include breakpoint(small down) {
+			.media {
+				max-width: 300px;
+				max-height: 400px;
+				margin: 0 auto;
+				padding: 0;
+				display: block;
+				margin-bottom: $padding*2;
+			}
+
+			.text {
+				text-align: center;
+			}
+		}		
+	}
+
+	.q-and-a {
+		padding: $padding*4 0;
+		
+		.intro {
+			margin-bottom: $padding;
+		}
+
+		.q-a {
+			margin-bottom: $padding;
+			position: relative;
+		}
+
+		.marker {
+			position: absolute;
+			right: 0px;
+			top: 10px;
+			z-index: 1;
+
+			&.up {
+				transform: rotate(180deg);
+			}
+		}
+
+		.question {
+			font-weight: bold;
+			&:hover {
+				position: relative;
+				z-index: 2;
+				cursor: pointer;
+			}
+		}
+
+		.answer {
+			display: none;
+		}
+	}
+
+
+	.coworkers {
+		padding: $padding*4 0;
+
+		.coworker {
+			padding: $padding*2 0;
+
+			ul {
+				text-align: center;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			.name, .title, .contact-info {
+				text-align: center;
+			}
+
+			.title {
+				font-style: italic;
+				margin-bottom: $padding;
+			}
+
+			.contact-info {
+				margin-bottom: $padding;
+				font-weight: 800;
+			}
+
+			.img-container {
+				width: 250px;
+				height: 250px;
+				margin: 0px auto;
+				margin-bottom: $padding;
+				background-size: cover;
+				background-position: center center;	
+				border-radius: 50%;
+				border: 8px solid $white;
+			}
+		}
+	}
+
+	.grid {
+		padding: $padding*4 0;
+
+		.intro {
+			margin-bottom: $padding*2;
+		}
+
+		.grid-item {
+			position: relative;
+
+			img {
+				max-height: 300px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: $padding*2;
+				display: block;
+			}
+
+			a.link{
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				left: 0px;
+				bottom: 0px;
+				&:hover {
+					border: 3px solid $white;
+					border-radius: 10px;
+				}
+
+			}
+
+			padding: $padding*2 $padding;
+
+			@include breakpoint(medium) {
+				padding: $padding $padding*2;
+			}
+		}
+
+		&.light-1, &.light-2 {
+			.grid-item a.link{
+				border-color: $medium-gray;
+			}
+		}
+	}
+}

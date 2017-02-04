@@ -1,0 +1,152 @@
+.mobile-nav-toggle {
+  $height: 20px;
+  width: 30px;
+  height: $height;
+  margin-top: floor($site-header-height - $height)/2 - 2px;
+  margin-left: $padding/2;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  float: right;
+  span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+  span:nth-child(1) {
+    top: 0px;
+  }
+  span:nth-child(2), span:nth-child(3) {
+    top: $height/2;
+  }
+
+  span:nth-child(4) {
+    top: $height;
+  }
+
+  .mobile-nav-open & span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+
+  .mobile-nav-open & span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .mobile-nav-open & span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .mobile-nav-open & span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+
+}
+
+#mobile-nav {
+  position: fixed;
+  overflow: auto;
+  opacity: 0;
+  display: none;
+  background: $mobile-nav-bg;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  padding: $padding*2 0;
+
+
+  ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    margin-bottom: $padding*2;
+  }
+
+  .navigation {
+    position: fixed;
+    top: $site-header-height;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: auto;
+  }
+
+  li a {
+    color: $white;
+
+    line-height: 1.7em;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+
+    &:hover {
+      color: rgba($white, .6);
+    }
+  }
+
+  .cta {
+    margin-top: $padding*2;
+  }
+
+  .group-title {
+    text-transform: uppercase;
+    color: rgba($white, .6);
+    font-weight: 700;
+    margin-top: $padding*2;
+  }
+
+  .mobile-nav-open & {
+    display: block;
+    opacity: 1;
+    animation: fadeIn 0.5s;
+    animation-fill-mode: both;
+  }
+
+  .sub-menu {
+    li a{
+      font-size: 28px;  
+      text-transform: capitalize;    
+    }
+  }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}

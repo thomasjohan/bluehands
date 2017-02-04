@@ -1,0 +1,59 @@
+.page-template-list_subpages {
+	margin-top: 100px;
+	padding-top: 4*$padding;
+	padding-bottom: 2*$padding;
+	background-color: $light-gray;
+
+	@include breakpoint(large) {
+		padding-top: 6*$padding;
+		padding-bottom: 4*$padding;
+	}
+	
+	h1 {
+		text-align: center;
+	}
+
+	.grid {
+		padding: $padding*2 0;
+	}
+	
+	.grid-item {
+		width: 100%;
+		padding-bottom: $padding;
+		@include breakpoint(medium) {
+			width: 50%;
+			padding: $padding;
+		}
+	}
+
+	
+	.subpage {
+		box-shadow: 0 0 10px rgba($medium-gray, .7);
+		position: relative;
+
+		a {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			left: 0px;
+			bottom: 0px;
+		}
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.subpage-text {
+		background-color: $white;
+		padding: 30px 25px 30px 25px;
+		h2 a {
+			color: $dark-gray;
+		}
+		p a {
+			display: block;
+			font-weight: 700;
+		}
+	}
+}

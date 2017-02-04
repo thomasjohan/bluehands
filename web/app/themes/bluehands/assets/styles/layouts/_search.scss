@@ -1,0 +1,28 @@
+.search-section {
+	background-color: $light-gray;
+	padding: 5*$padding 0;
+	.search {
+		margin: 0 50px 40px 50px;
+	}
+	input {
+		display: inline;
+		max-width: 450px;
+		margin-right: 20px;
+	}
+	p.current-search {
+		font-weight: 700;
+		font-size: 19px;
+		margin-top: 20px;
+	}
+	.article-text {
+		background-color: $white;
+		padding: 40px 20px;
+		margin-bottom: 20px;
+	}
+
+	@include breakpoint(medium) {
+		.search-section {
+			padding: 0;
+		}
+	}
+}

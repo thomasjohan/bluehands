@@ -1,0 +1,23 @@
+*:focus {
+	outline: none;
+}
+
+@mixin admin-bar-fixed {
+	.admin-bar & {
+		margin-top: 32px !important;
+
+		@media screen and ( max-width: 782px ) {
+			margin-top: 46px !important;
+		}
+	}
+}
+
+#wpadminbar {
+	position: fixed;
+}
+
+body {
+	padding-top: $site-header-height;
+	word-wrap: break-word;
+}
+

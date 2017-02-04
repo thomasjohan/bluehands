@@ -1,0 +1,39 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "~6.2",
+    "components-font-awesome": "^4.5.0",
+    "isotope": "^3.0.0",
+    "lightbox2": "lightbox#^2.8.2",
+    "scrollToBySpeed": "^0.3.0",
+    "vertical-timeline": "^0.0.1",
+    "rangeslider.js": "^2.2.1"
+  },
+  "overrides": {
+    "foundation-sites": {
+      "main": [
+        "./scss/foundation.scss",
+        "./dist/foundation.js"
+      ]
+    },
+    "masonry": {
+      "main": [
+        "dist/masonry.pkgd.js"
+      ]
+    },
+    "isotope": {
+      "main": [
+        "dist/isotope.pkgd.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "motion-ui": "^1.2.2"
+  }
+}

@@ -1,0 +1,28 @@
+.reviews {
+	padding: $section-padding 0;
+
+	.img-container {
+		width: 250px;
+		height: 250px;
+		margin: 0px auto;
+		margin-bottom: $padding;
+		background-size: cover;
+		background-position: center center;	
+		border-radius: 50%;
+		border: 8px solid $white;
+		@include breakpoint(medium) {
+			margin-right: $padding;
+		}
+	}
+
+	.quote {
+		margin-top: $padding*2;
+		padding: 0px $padding;
+		
+
+		.author {
+			font-style: italic;
+			font-weight: bold;
+		}
+	}
+}

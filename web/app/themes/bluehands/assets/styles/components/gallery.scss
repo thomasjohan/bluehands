@@ -1,0 +1,29 @@
+//Layout for wordpress gallery (default gallery in media uploader)
+
+.gallery {
+	margin: $padding*2 0;
+	.gallery-item {
+		float: left;
+		border: 5px solid $white;
+		margin: 0px;
+		position: relative;
+		z-index: 1;
+		transition: all 0.1s ease-in;
+
+		width: 33.33%;
+		
+		@include breakpoint(medium) {
+			width: 20%;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		&:hover {
+			z-index: 10;
+			border-color: $light-gray;
+		}
+	}
+}

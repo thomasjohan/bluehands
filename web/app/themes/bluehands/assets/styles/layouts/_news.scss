@@ -1,0 +1,26 @@
+body.blog {
+	padding-top: $section-header-padding;
+	background-color: $light-gray;
+}
+
+.blog {
+	.news {
+		padding: $section-padding;
+	}
+	h1 {
+		text-align: center;
+	}
+	.post {
+		a {
+			color: $dark-gray;
+		}
+	}
+	.post-content {
+		margin-bottom: 20px;
+	}
+	.post-text {
+		background-color: $white;
+		padding: 40px 20px;
+		margin-bottom: 20px;
+	}
+}

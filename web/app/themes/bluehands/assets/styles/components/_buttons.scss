@@ -1,0 +1,10 @@
+button, .button {
+	border: 2px solid $text-dark;
+	padding: 10px 30px;
+	color: $text-dark;
+	background: initial;
+	&:hover {
+		background: initial;
+		color: $text-dark;
+	}
+}

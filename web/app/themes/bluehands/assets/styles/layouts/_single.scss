@@ -1,0 +1,9 @@
+.single-blog-post {
+	padding-top: 100px;
+
+	.navigation {
+		padding: $padding;
+		background: $dark-gray;
+		@include dark-bg;
+	}
+}

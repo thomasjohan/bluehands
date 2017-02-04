@@ -1,0 +1,46 @@
+//@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,300italic,400italic,600,600italic,700,700italic,800|Vollkorn:400,400italic,700,700italic);
+
+@import "common/_variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/foundation-sites/scss/foundation.scss";
+// endbower
+
+
+//font-awesome
+@import "../../bower_components/components-font-awesome/scss/font-awesome.scss";
+
+@include foundation-everything;
+
+@import "common/mixins";
+@import "common/global";
+@import "common/typography";
+
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "components/mobile-menu";
+@import "components/author-bio";
+@import "components/banner-page";
+@import "components/contact-form-7";
+@import "components/mailchimp-for-wp";
+@import "components/rangeslider";
+@import "components/lightbox-2";
+@import "components/reviews";
+@import "components/gallery";
+
+@import "layouts/flexible-content";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/tinymce";
+@import "layouts/start";
+@import "layouts/404";
+@import "layouts/search";
+@import "layouts/news";
+@import "layouts/single";
+@import "layouts/list-subpages";

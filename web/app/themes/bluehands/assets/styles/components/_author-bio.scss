@@ -1,0 +1,10 @@
+.bio-content {
+	padding: $padding;
+		img {
+			display: block;
+			max-width: 150px;
+			height: auto;
+			margin: $padding auto;
+			border-radius: 50%;
+		}
+}

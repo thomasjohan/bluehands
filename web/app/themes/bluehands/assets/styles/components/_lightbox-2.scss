@@ -1,0 +1,9 @@
+//Alters som CSS for lightbox 2. 
+
+#lightbox {
+	z-index: 10000;
+	a.lb-prev, a.lb-next {
+		opacity: 1 !important;
+		filter: alpha(Opacity=1) !important;		
+	}
+}

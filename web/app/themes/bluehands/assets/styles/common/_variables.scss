@@ -1,0 +1,92 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Page layout
+$section-header-padding: 100px;
+$section-padding: 80px;
+$global-width: 1200px;
+
+
+// Colors
+$text-light:            #a1a1a1;
+$text-dark:             #333333;
+$background-gray:       #F6F6F6;
+
+$light-gray:            #f2f2f2;
+$medium-gray:           #cacaca;
+$dark-gray:             #4a4a4a;
+$darker-gray:           #222222;
+$white:                 #fefefe;
+
+$mobile-nav-bg: darken($darker-gray,5);
+
+$body-background: #ffffff;
+
+$foundation-palette: (
+  primary: #333333,
+  secondary: #333333,
+  success: #00A964,
+  warning: #ffae00,
+  white: $white,
+  alert: #ec5840,
+) !default;
+
+// Buttons
+$button-padding: 13px 28px;
+$button-margin: 0;
+$button-radius: 0;
+$button-color: $white;
+
+// Modals
+$reveal-background: map-get($foundation-palette, primary);
+
+// Forms
+$input-radius: 7px;
+$input-font-size: rem-calc(12);
+$input-shadow: none;
+$form-label-color: $dark-gray;
+$input-placeholder-color: $dark-gray;
+$input-border-focus: 1px solid $medium-gray;
+$select-radius: 7px;
+
+// Text
+$body-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$global-weight-normal: 400;
+$body-font-color: #8c8c8c;
+$header-font-weight: bold;
+$global-font-size: 110% !default;
+
+$header-font-family: $body-font-family;
+$header-font-color: #333;
+
+$default-border: 1px solid $medium-gray;
+
+// Layout
+$padding: 20px;
+$margin: $padding;
+
+$site-header-height: 80px;
+
+// Header Sizes
+$header-sizes: (
+  small: (
+    'h1': 40,
+    'h2': 35,
+    'h3': 30,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16,
+  ),
+  medium: (
+    'h1': 48,
+    'h2': 40,
+    'h3': 35,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16,
+  ),
+);

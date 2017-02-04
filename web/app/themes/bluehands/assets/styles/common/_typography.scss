@@ -1,0 +1,24 @@
+p {
+	&:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+h1 {
+	color: $black;
+	margin-bottom: 1em;
+}
+
+h2 {
+	color: lighten($black,10);
+	margin-bottom: 1em;
+	
+}
+
+h3 {
+	color: lighten($black,20);
+}
+
+h4 {
+	color: lighten($black,30);
+}
