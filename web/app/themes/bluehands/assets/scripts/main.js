@@ -22,7 +22,7 @@
         $(document).foundation(); // Foundation JavaScript
 
         //init webnerds functions
-        stickyHeader();
+        // stickyHeader();
         mobileNav();
         autoScrollToAnchor();
         siteHeaderSubMenu();

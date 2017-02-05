@@ -30,21 +30,22 @@ $quick_menu = get_field('quick_menu', 'option');
 			</div>
 		</div>
 	</div> -->
-	<div class="extra">
+
 		<div class="row">
-			<div class="columns small-6">
+			<div class="columns small-9">
 				<div class="static-menu">
           <div class="menu-wrap">
             <ul>
-              <li>clients.</li>
-              <li>about.</li>
-              <li>social feed.</li>
-              <li>contact.</li>
+              <li><a href="#services">services.</a></li>
+              <li><a href="#clients">clients.</a></li>
+              <li><a href="#about">about.</a></li>
+              <!-- <li><a href="#social-feed">social feed.</a></li> -->
+              <li><a href="#contact">contact.</a></li>
             </ul>
           </div>
         </div>
 			</div>
-			<div class="columns small-6">
+			<div class="columns small-3">
 				<div class="social-media">
 					<?php if(!empty($facebook)): ?>
 	  					<a href="<?= $facebook ?>"><i class="fa fa-facebook"></i></a>
@@ -58,6 +59,5 @@ $quick_menu = get_field('quick_menu', 'option');
   				</div>
 			</div>
 		</div>
-	</div>
 	
 </footer>

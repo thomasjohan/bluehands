@@ -120,16 +120,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7",
+            "version": "4.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
+                "reference": "ac7b1792641d1fb61cb2901db292903b31694057"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ac7b1792641d1fb61cb2901db292903b31694057",
+                "reference": "ac7b1792641d1fb61cb2901db292903b31694057",
                 "shasum": ""
             },
             "require": {
@@ -153,7 +153,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-12-06 18:46:46"
+            "time": "2017-01-26 18:32:19"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -374,15 +374,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.6",
+            "version": "4.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.6"
+                "reference": "tags/4.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -394,15 +394,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.9.4",
+            "version": "4.9.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.9.4"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -434,15 +434,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "4.0.11",
+            "version": "4.0.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/4.0.11"
+                "reference": "tags/4.0.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.0.11.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.0.12.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -563,16 +563,16 @@
         },
         {
             "name": "yoast/i18n-module",
-            "version": "1.0.1",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/i18n-module.git",
-                "reference": "7dddeee1481af3437fe451dc235ceb4a301d7220"
+                "reference": "3bf8ae3ee1bb1cb7d80a78291c6ad3cbd0ee0711"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Yoast/i18n-module/zipball/7dddeee1481af3437fe451dc235ceb4a301d7220",
-                "reference": "7dddeee1481af3437fe451dc235ceb4a301d7220",
+                "url": "https://api.github.com/repos/Yoast/i18n-module/zipball/3bf8ae3ee1bb1cb7d80a78291c6ad3cbd0ee0711",
+                "reference": "3bf8ae3ee1bb1cb7d80a78291c6ad3cbd0ee0711",
                 "shasum": ""
             },
             "type": "library",
@@ -597,7 +597,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-04-29 11:09:50"
+            "time": "2017-02-02 09:36:28"
         },
         {
             "name": "yoast/license-manager",
@@ -702,16 +702,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f"
+                "reference": "86dd55a522238211f9f3631e3361703578941d9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9b324f3a1132459a7274a0ace2e1b766ba80930f",
-                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/86dd55a522238211f9f3631e3361703578941d9a",
+                "reference": "86dd55a522238211f9f3631e3361703578941d9a",
                 "shasum": ""
             },
             "require": {
@@ -776,7 +776,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-11-30 04:02:31"
+            "time": "2017-02-02 03:30:00"
         }
     ],
     "aliases": [],

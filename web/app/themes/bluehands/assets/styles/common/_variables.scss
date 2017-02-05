@@ -15,12 +15,14 @@ $global-width: 1200px;
 $text-light:            #a1a1a1;
 $text-dark:             #333333;
 $background-gray:       #F6F6F6;
+$black:                 #000;
+$body-color:            #8c8c8c;
 
 $light-gray:            #f2f2f2;
 $medium-gray:           #cacaca;
 $dark-gray:             #4a4a4a;
 $darker-gray:           #222222;
-$white:                 #fefefe;
+$white:                 #ffffff;
 
 $mobile-nav-bg: darken($darker-gray,5);
 
@@ -53,23 +55,23 @@ $input-placeholder-color: $dark-gray;
 $input-border-focus: 1px solid $medium-gray;
 $select-radius: 7px;
 
-// Text
-$body-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-$global-weight-normal: 400;
-$body-font-color: #8c8c8c;
-$header-font-weight: bold;
-$global-font-size: 110% !default;
-
-$header-font-family: $body-font-family;
-$header-font-color: #333;
-
-$default-border: 1px solid $medium-gray;
 
 // Layout
-$padding: 20px;
+$padding: 10px;
 $margin: $padding;
 
 $site-header-height: 80px;
+
+// Text
+$body-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$global-weight-normal: 300;
+$body-font-color: $body-color;
+$header-font-weight: bold;
+// $global-font-size: 100% !default;
+
+$header-font-family: $body-font-family;
+$header-font-color: $black;
+$default-border: 1px solid $medium-gray;
 
 // Header Sizes
 $header-sizes: (
@@ -87,6 +89,6 @@ $header-sizes: (
     'h3': 35,
     'h4': 25,
     'h5': 20,
-    'h6': 16,
+    'h6': 16, 
   ),
 );

@@ -1,13 +1,72 @@
 .start {
+	.section {
+		padding-top: 6*$padding;
+		@include breakpoint(medium) {
+			padding-top: 10*$padding; 
+		}
+	}
+
+	.banner {
+		h3 {
+			font-weight: normal;
+		}
+	}
+
+	.services {
+		h1 {
+			margin-bottom: 30px;
+		}
+		.service-wrap {
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat; 
+			padding: 15% 10% 20% 10%;
+			width: 100%;
+			h5 {
+				color: $white;
+			}
+			p {
+				color: $white;
+				font-size: rem-calc(16px);
+			}
+		}
+	}
+
+	.clients {
+		p {
+			font-size: rem-calc(24px);
+			@include breakpoint(medium){
+				font-size: rem-calc(32px);
+			}
+		}
+	}
+
+	.about {
+		p {
+			font-size: rem-calc(24px);
+			@include breakpoint(medium){
+				font-size: rem-calc(28px);
+			}
+		}
+	}
+
 	.contact {
 		.message {
 		background: $background-gray;
-		padding: 100px;
+		padding: 8*$padding;
 		margin-bottom: 10px;
+			p {
+				font-size: rem-calc(16px);
+				color: $dark-gray;
+			}
 		}
 		.direct-contact {
 			background: $background-gray;
-			padding: 100px;
+			padding: 8*$padding;
+			p {
+				font-size: rem-calc(16px);
+				color: $dark-gray;
+			}
 		}
 	}
 }

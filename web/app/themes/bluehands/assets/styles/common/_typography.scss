@@ -1,24 +1,28 @@
 p {
+	font-size: rem-calc(19px);
+	font-weight: 300px;
 	&:last-child {
 		margin-bottom: 0px;
 	}
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	color: $black;
-	margin-bottom: 1em;
+}
+
+h1 {
+
 }
 
 h2 {
-	color: lighten($black,10);
-	margin-bottom: 1em;
+
 	
 }
 
 h3 {
-	color: lighten($black,20);
+
 }
 
 h4 {
-	color: lighten($black,30);
+
 }

@@ -26,26 +26,28 @@ if(get_field('transparent_header')) {
 }
 
 ?>
-<header class="site-header <?= $site_header_classes ?>">
+<header class="site-header <?= $site_header_classes ?>" id="scroll-top">
     
     <div class="row">
-      <div class="small-9 columns">
+      <div class="columns">
+        <h3 class="menu-logo">
+          <a class="logo" href="<?php bloginfo('url') ?>" style="background-image: url('<?= $logo ?>');"><?php bloginfo('name') ?></a>
+          <a class="logo-light" href="#scroll-top" style="background-image: url('<?php echo $light_logo; ?>');"><?php bloginfo('name') ?></a>
+        </h3>
         <div class="static-menu">
           <div class="menu-wrap">
             <ul>
-              <li>clients.</li>
-              <li>about.</li>
-              <li>social feed.</li>
-              <li>contact.</li>
+              <li><a href="#services">services.</a></li>
+              <li><a href="#clients">clients.</a></li>
+              <li><a href="#about">about.</a></li>
+              <!-- <li><a href="#social-feed">social feed.</a></li> -->
+              <li><a href="#contact">contact.</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="small-3 columns">
-          <h3 class="menu-logo">
-            <a class="logo" href="<?php bloginfo('url') ?>" style="background-image: url('<?= $logo ?>');"><?php bloginfo('name') ?></a>
-            <a class="logo-light" href="<?php bloginfo('url') ?>" style="background-image: url('<?php echo $light_logo; ?>');"><?php bloginfo('name') ?></a>
-          </h3>
+          
       </div>   
     </div>
 
