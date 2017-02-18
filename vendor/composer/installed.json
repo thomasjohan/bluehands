@@ -25,7 +25,7 @@
             "composer/composer": "1.0.*@dev",
             "phpunit/phpunit": "4.1.*"
         },
-        "time": "2016-04-13 19:46:30",
+        "time": "2016-04-13T19:46:30+00:00",
         "type": "composer-plugin",
         "extra": {
             "class": "Composer\\Installers\\Plugin",
@@ -125,7 +125,7 @@
         "require-dev": {
             "composer/composer": "1.0.*@dev"
         },
-        "time": "2015-06-11 15:15:30",
+        "time": "2015-06-11T15:15:30+00:00",
         "type": "composer-plugin",
         "extra": {
             "class": "johnpbloch\\Composer\\WordPressCorePlugin"
@@ -176,7 +176,7 @@
             "phpunit/phpunit": "^4.8.23|^5.2.9",
             "squizlabs/php_codesniffer": "^2.5.1"
         },
-        "time": "2016-03-01 16:27:06",
+        "time": "2016-03-01T16:27:06+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -332,7 +332,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.8 || ^5.0"
         },
-        "time": "2016-09-01 10:05:43",
+        "time": "2016-09-01T10:05:43+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -381,7 +381,7 @@
         "require": {
             "php": ">=5.2"
         },
-        "time": "2016-05-08 17:14:32",
+        "time": "2016-05-08T17:14:32+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -422,7 +422,7 @@
             "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8",
             "shasum": ""
         },
-        "time": "2016-04-16 21:52:24",
+        "time": "2016-04-16T21:52:24+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -455,7 +455,7 @@
             "reference": "e7361081a1d6ae79c0b96c8363379435ea736ef8",
             "shasum": ""
         },
-        "time": "2015-07-14 10:25:59",
+        "time": "2015-07-14T10:25:59+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -495,7 +495,7 @@
             "reference": "2b3588aeed60c573bb622edd0f1144e0ee206bcf",
             "shasum": ""
         },
-        "time": "2016-11-11 11:18:13",
+        "time": "2016-11-11T11:18:13+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -554,7 +554,7 @@
             "yoast/php-development-environment": "^1.0",
             "yoast/yoastcs": "0.3"
         },
-        "time": "2016-11-29 10:43:36",
+        "time": "2016-11-29T10:43:36+00:00",
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "autoload": {
@@ -602,7 +602,7 @@
             "johnpbloch/wordpress-core-installer": "~0.2",
             "php": ">=5.3.2"
         },
-        "time": "2017-01-26 18:32:19",
+        "time": "2017-01-26T18:32:19+00:00",
         "type": "wordpress-core",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
@@ -712,7 +712,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2017-02-02 03:30:00",
+        "time": "2017-02-02T03:30:00+00:00",
         "bin": [
             "scripts/phpcs",
             "scripts/phpcbf"
@@ -783,7 +783,7 @@
             "reference": "3bf8ae3ee1bb1cb7d80a78291c6ad3cbd0ee0711",
             "shasum": ""
         },
-        "time": "2017-02-02 09:36:28",
+        "time": "2017-02-02T09:36:28+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
